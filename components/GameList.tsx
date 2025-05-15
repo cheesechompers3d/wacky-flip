@@ -4,6 +4,7 @@ import Image from "next/image"
 import { Game } from "@/lib/types"
 import { ReactNode } from "react"
 import { useRouter } from "next/navigation"
+import Advertisement from './Advertisement'
 
 interface GameListProps {
   games?: Game[]
@@ -23,9 +24,9 @@ export default function GameList({
   const renderAdSlot = (index: number) => (
     <div 
       key={`ad-${index}`} 
-      className="col-span-2 h-[120px] bg-gray-800 rounded-lg flex items-center justify-center text-gray-400 my-2"
+      className="col-span-2 flex items-center justify-center my-2"
     >
-      Ad Slot {index + 1}
+      <Advertisement position="content" isAdSlot={true} index={index} />
     </div>
   )
 

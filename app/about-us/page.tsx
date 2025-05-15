@@ -25,7 +25,6 @@ export default function AboutUs() {
     setTheme(theme === 'dark' ? 'light' : 'dark')
   }
 
-
   return (
     <>
       <Navbar
