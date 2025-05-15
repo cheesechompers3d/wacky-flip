@@ -2,9 +2,9 @@
 slug: wacky-flip
 title: Wacky Flip
 description: Wacky Flip is an adrenaline-pumping parkour stunt-flipping game that takes you on the journey of a parkour backflip champion gymnast. Experience Wacky Flip's thrilling execution of stunning backflips, combos, and gravity-defying stunts in various urban environments. From basketball courts to rooftops and water towers, each level of Wacky Flip is packed with insane challenges that test your timing, agility, and precision. With ragdoll physics and endless opportunities for swaggy moves, every jump in Wacky Flip is as exciting as the last. Join the growing community of Wacky Flip enthusiasts and discover why this game is becoming the ultimate choice for parkour gaming fans worldwide.
-icon: /images/hot_game/wacky-flip.png
+icon: /images/hot_game/wacky-flip.jpg
 url: https://wackyflip.pro
-previewImage: /images/hot_game/wacky-flip.png
+previewImage: /images/hot_game/wacky-flip.jpg
 type: arcade
 videoUrls:
   - https://www.youtube.com/embed/2N7hkOo-l44
@@ -22,7 +22,7 @@ whyPlay:
 
 features:
   title: "Core Features of Wacky Flip"
-  image: "/images/hot_game/wacky-flip.png"
+  image: "/images/hot_game/wacky-flip-1.png"
   items:
     - "Precise Controls: Master Wacky Flip's jump power and angle to achieve perfect flip moves. The intuitive control system makes Wacky Flip accessible while maintaining depth."
     - "Combo System: Complete multiple stunts in Wacky Flip's mid-air mechanics for higher score multipliers. Chain together amazing combinations as you progress through Wacky Flip's levels."
@@ -33,7 +33,7 @@ features:
 
 characteristics:
   title: "Game Characteristics of Wacky Flip"
-  image: "/images/hot_game/wacky-flip.png"
+  image: "/images/hot_game/wacky-flip-1.jpg"
   items:
     - "Parkour Experience: Wacky Flip's innovative gameplay combining stunts and parkour elements creates an unmatched gaming experience. The fluid movement system in Wacky Flip sets new standards for parkour games."
     - "Skill Enhancement: Master more complex flip techniques through Wacky Flip's progressive challenges. The learning curve in Wacky Flip rewards dedication and practice."

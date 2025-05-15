@@ -5,6 +5,7 @@ import { getSiteConfig } from '@/lib/config'
 import Navbar from '@/components/Navbar'
 import { useTheme } from 'next-themes'
 import { useRouter } from 'next/navigation'
+import Footer from '@/components/Footer'
 
 export default function PrivacyPolicy() {
   const router = useRouter()
@@ -303,6 +304,7 @@ export default function PrivacyPolicy() {
           </div>
         </div>
       </div>
+      <Footer />
     </>
   )
 } 

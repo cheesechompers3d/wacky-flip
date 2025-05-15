@@ -5,6 +5,7 @@ import { getSiteConfig } from '@/lib/config'
 import Navbar from '@/components/Navbar'
 import { useTheme } from 'next-themes'
 import { useRouter } from 'next/navigation'
+import Footer from '@/components/Footer'
 
 export default function TermsOfService() {
   const router = useRouter()
@@ -235,6 +236,7 @@ export default function TermsOfService() {
           </div>
         </div>
       </div>
+      <Footer />
     </>
   )
 } 

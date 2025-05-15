@@ -21,11 +21,15 @@ footer:
     - title: "Quick Links"
       links:
         - text: "GitHub"
-          url: "https://github.com/luning20110101@163.com/wacky-flip"
+          url: "https://github.com/sports-wackyflip/wackyflip"
+        - text: "About Us"
+          url: "/about-us"
         - text: "Privacy Policy"
           url: "/privacy-policy"
         - text: "Terms of Service"
           url: "/terms-of-service"
+        - text: "Contact Us"
+          url: "/contact-us"
     - title: "Contact Us"
       links:
         - text: "HarryC199101@gmail.com"
