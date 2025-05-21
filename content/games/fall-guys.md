@@ -64,4 +64,6 @@ faq:
     - question: "How long do matches last?"
       answer: "Matches typically last 15-20 minutes, with multiple rounds of increasing difficulty."
     - question: "Is this game suitable for children?"
-      answer: "Absolutely! Fall Guys features colorful graphics and family-friendly gameplay suitable for all ages." 
+      answer: "Absolutely! Fall Guys features colorful graphics and family-friendly gameplay suitable for all ages."
+    - question: "Still Have Questions?"
+      answer: "If you can't find the answer to your question about Fall Guys in our FAQ, please reach out to our community support team. Our dedicated staff is passionate about ensuring every player has the best possible experience with Fall Guys and will respond to your inquiry promptly." 

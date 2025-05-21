@@ -1,6 +1,7 @@
 "use client"
 
 import { useEffect, useRef } from 'react'
+import { defaultConfig } from '@/lib/config'
 
 interface AdvertisementProps {
   position: 'sidebar' | 'content'
@@ -11,6 +12,11 @@ interface AdvertisementProps {
 export default function Advertisement({ position, isAdSlot, index = 0 }: AdvertisementProps) {
   const adContainerRef = useRef<HTMLDivElement>(null)
 
+  // 如果广告key为空，直接返回null
+  if (!defaultConfig.advertisement?.key) {
+    return null
+  }
+
   useEffect(() => {
     if (isAdSlot && adContainerRef.current) {
       // 使用延迟加载，每个广告错开加载时间
@@ -20,7 +26,7 @@ export default function Advertisement({ position, isAdSlot, index = 0 }: Adverti
         configScript.type = 'text/javascript'
         configScript.text = `
           window.atOptions = {
-            'key': '1b7f5f4771a9028b856ea6afed6bca2a',
+            'key': '${defaultConfig.advertisement.key}',
             'format': 'iframe',
             'height': 250,
             'width': 300,
@@ -31,7 +37,7 @@ export default function Advertisement({ position, isAdSlot, index = 0 }: Adverti
 
         // 加载广告脚本
         const adScript = document.createElement('script')
-        adScript.src = "//www.highperformanceformat.com/1b7f5f4771a9028b856ea6afed6bca2a/invoke.js"
+        adScript.src = `//www.highperformanceformat.com/${defaultConfig.advertisement.key}/invoke.js`
         adScript.async = true
         adScript.type = "text/javascript"
         adContainerRef.current?.appendChild(adScript)

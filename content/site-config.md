@@ -1,8 +1,14 @@
 ---
-defaultGame: "wacky-flip"
+defaultGame: "merge-fellas"
 siteName: "Wacky Flip"
+seo:
+  title: "Wacky Flipy - Fast Arcade Flipping Game | Test Reflexes!"
+  description: "Play Wacky Flipy! Flip, jump & dodge obstacles in this addictive arcade game. Challenge harder levels & compete for high scores. Free to play!"
+  ogImage: "/images/hot_game/wacky-flip.jpg"
+  keywords: "wacky flipy, arcade game, reflex test, free jumper, dodge obstacles, high score"
+
 siteInfo:
-  companyName: "wackyflip"
+  companyName: "Wacky Flip"
   siteUrl: "https://www.wackyflip.pro"
   email: "HarryC199101@gmail.com"
 footer:
@@ -14,16 +20,12 @@ footer:
           url: "/more-games"
         - text: "Cheese Chompers 3D"
           url: "https://www.cheese-chompers-3d.com"
-        - text: "Brainrot Clicker"
-          url: "https://brainrotclicker.pro"
-        - text: "Merge Fellas"
-          url: "https://mergefellas.pro"
         - text: "Squidki"
           url: "https://www.squidki.pro"
     - title: "Quick Links"
       links:
         - text: "GitHub"
-          url: "https://github.com/sports-wackyflip/wackyflip"
+          url: "https://github.com/brainrotclicker/brainrotclicker"
         - text: "Privacy Policy"
           url: "/privacy-policy"
         - text: "Terms of Service"

@@ -1,34 +1,20 @@
-import fs from 'fs'
-import path from 'path'
-import matter from 'gray-matter'
+import type { SiteConfig } from './types'
 
-export interface SiteConfig {
-  defaultGame: string
-  siteName: string
-  siteInfo: {
-    companyName: string
-    siteUrl: string
-    email: string
-  }
-  footer: {
-    columns: Array<{
-      title: string
-      description?: string
-      links: Array<{
-        text: string
-        url: string
-      }>
-    }>
-    copyright: string
-    disclaimer: string
-  }
-}
-
-const siteConfig: SiteConfig = {
+// 默认配置
+export const defaultConfig: SiteConfig = {
   defaultGame: "wacky-flip",
   siteName: "Wacky Flip",
+  seo: {
+    title: "Wacky Flipy - Fast Arcade Flipping Game | Test Reflexes!",
+    description: "Play Wacky Flipy! Flip, jump & dodge obstacles in this addictive arcade game. Challenge harder levels & compete for high scores. Free to play!",
+    ogImage: "/images/hot_game/wacky-flip.jpg",
+    keywords: "wacky flipy, arcade game, reflex test, free jumper, dodge obstacles, high score"
+  },
+  advertisement: {
+    key: ""
+  },
   siteInfo: {
-    companyName: "wackyflip",
+    companyName: "Wacky Flip",
     siteUrl: "https://www.wackyflip.pro",
     email: "HarryC199101@gmail.com"
   },
@@ -41,48 +27,6 @@ const siteConfig: SiteConfig = {
           {
             text: "More Games",
             url: "/more-games"
-          },
-          {
-            text: "Wacky Flip",
-            url: "/wacky-flip"
-          },
-          {
-            text: "Cheese Chompers 3D",
-            url: "/cheese-chompers-3d"
-          },
-          {
-            text: "Merge Fellas",
-            url: "/merge-fellas"
-          }
-        ]
-      },
-      {
-        title: "Quick Links",
-        links: [
-          {
-            text: "GitHub",
-            url: "https://github.com/wackyflip/wacky-flip"
-          },
-          {
-            text: "Wacky Flip Official",
-            url: "https://wackyflip.pro"
-          },
-          {
-            text: "Privacy Policy",
-            url: "/privacy-policy"
-          },
-          {
-            text: "Terms of Service",
-            url: "/terms-of-service"
-          }
-        ]
-      },
-      {
-        title: "Contact Us",
-        links: [
-          {
-            text: "HarryC199101@gmail.com",
-            url: "mailto:HarryC199101@gmail.com"
           }
         ]
       }
@@ -90,8 +34,8 @@ const siteConfig: SiteConfig = {
     copyright: "© 2025 All rights reserved.",
     disclaimer: "This is an independent website and is not affiliated with any organizations."
   }
-}
+} 
 
 export function getSiteConfig(): SiteConfig {
-  return siteConfig
+  return defaultConfig
 } 

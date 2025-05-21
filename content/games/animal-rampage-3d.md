@@ -65,4 +65,6 @@ faq:
     - question: "Are there different game modes?"
       answer: "Yes! The game offers multiple modes including Story Mode with structured missions, Free Roam for unlimited destruction, and Time Attack challenges for competitive players."
     - question: "How often is the game updated?"
-      answer: "We regularly update Animal Rampage 3D with new content, including additional animals, missions, and features based on player feedback and community suggestions." 
+      answer: "We regularly update Animal Rampage 3D with new content, including additional animals, missions, and features based on player feedback and community suggestions."
+    - question: "Still Have Questions?"
+      answer: "If you can't find the answer to your question about Animal Rampage 3D in our FAQ, please reach out to our community support team. Our dedicated staff is passionate about ensuring every player has the best possible experience with Animal Rampage 3D and will respond to your inquiry promptly." 

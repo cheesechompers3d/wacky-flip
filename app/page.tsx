@@ -1,24 +1,14 @@
-import { Metadata } from 'next'
-import Home from '@/components/Home'
-import { getGameBySlug } from '@/lib/games'
-import { getSiteConfig } from '@/lib/config'
+import type { Metadata } from "next"
+import { defaultConfig } from "@/lib/config"
+import ClientPage from "@/components/ClientPage"
 
-interface PageProps {
-  params: { slug?: string }
-  searchParams: { [key: string]: string | string[] | undefined }
+export const metadata: Metadata = {
+  title: defaultConfig.seo.title,
+  description: defaultConfig.seo.description
+
 }
 
-export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
-  const config = getSiteConfig()
-  return {
-    title: config.siteName,
-    description: `Play ${config.siteName} - The Ultimate Gaming Experience`
-  }
-}
-
-export default async function Page({ params, searchParams }: PageProps) {
-  const config = getSiteConfig()
-  const defaultGame = await getGameBySlug(config.defaultGame)
-  return <Home defaultGame={defaultGame} />
+export default function Page() {
+  return <ClientPage />
 }
 

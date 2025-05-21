@@ -72,4 +72,6 @@ faq:
     - question: "Is Wacky Flip suitable for beginners?"
       answer: "Yes, Wacky Flip features an intuitive learning curve that makes it accessible for newcomers while maintaining depth for experienced players. The progressive difficulty in Wacky Flip helps new players gradually master the game's mechanics."
     - question: "How often is Wacky Flip updated?"
-      answer: "The development team regularly updates Wacky Flip with new content, features, and improvements. Players can expect fresh challenges and exciting additions to keep their Wacky Flip experience engaging." 
+      answer: "The development team regularly updates Wacky Flip with new content, features, and improvements. Players can expect fresh challenges and exciting additions to keep their Wacky Flip experience engaging."
+    - question: "Still Have Questions?"
+      answer: "If you can't find the answer to your question about Wacky Flip in our FAQ, please reach out to our community support team. Our dedicated staff is passionate about ensuring every player has the best possible experience with Wacky Flip and will respond to your inquiry promptly." 

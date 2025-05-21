@@ -2,9 +2,9 @@
 slug: merge-fellas
 title: Merge Fellas
 description: Experience Merge Fellas, an addictive merging game where you combine identical characters to create more powerful ones. With its unique merging mechanics and endless possibilities, Merge Fellas offers a perfect blend of strategy and fun!
-icon: /images/hot_game/merge-fellas.jpg
+icon: /images/hot_game/merge-fellas.png
 url: https://merge-fellas.com/game
-previewImage: /images/hot_game/merge-fellas.jpg
+previewImage: /images/hot_game/merge-fellas.png
 type: puzzle
 videoUrls:
   - https://www.youtube.com/embed/8kjYl-CMCE4
@@ -22,7 +22,7 @@ whyPlay:
 
 features:
   title: "Key Features of Merge Fellas"
-  image: "/images/hot_game/merge-fellas.jpg"
+  image: "/images/hot_game/merge-fellas-1.jpg"
   items:
     - "Dynamic Character System: Experience an ever-evolving roster of characters in Merge Fellas that keeps the gameplay fresh and exciting with each merge"
     - "Modern Graphics: Immerse yourself in beautifully designed characters with stunning visual effects and merge animations"
@@ -31,7 +31,7 @@ features:
 
 characteristics:
   title: "Game Characteristics"
-  image: "/images/hot_game/merge-fellas.jpg"
+  image: "/images/hot_game/merge-fellas-2.jpg"
   items:
     - "Easy to Learn: Simple drag-and-drop controls and intuitive merging mechanics make Merge Fellas accessible for players of all skill levels"
     - "Strategic Depth: While easy to start, Merge Fellas offers deep strategic gameplay for dedicated players who want to master character combinations"
@@ -64,4 +64,6 @@ faq:
     - question: "How often is the game updated?"
       answer: "We regularly update Merge Fellas with new characters, features, and improvements based on player feedback."
     - question: "Is this game suitable for all players?"
-      answer: "Absolutely! Merge Fellas is designed to be accessible for all players with its intuitive controls and engaging progression system." 
+      answer: "Absolutely! Merge Fellas is designed to be accessible for all players with its intuitive controls and engaging progression system."
+    - question: "Still Have Questions?"
+      answer: "If you can't find the answer to your question about Merge Fellas in our FAQ, please reach out to our community support team. Our dedicated staff is passionate about ensuring every player has the best possible experience with Merge Fellas and will respond to your inquiry promptly." 
